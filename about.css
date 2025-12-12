@@ -3,7 +3,7 @@ body {
     font-family: 'Gadget', sans-serif;
     margin: 0;
     padding: 0;
-    color: #202e46;
+    color: #000000;
 }
 
 nav {
@@ -23,7 +23,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #5e5e5e;
 }
 
 h1 {
@@ -72,7 +72,7 @@ img {
 #team-container .team-member h3 {
     font-size: 1.2em;
     font-weight: 700;
-    color: #b8d469;
+    color: #000000;
     margin-bottom: 5px;
 }
 

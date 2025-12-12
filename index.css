@@ -1,18 +1,19 @@
 body {
-    background-color: #f0f0f0;
-    font-family: 'Roboto', sans-serif;
+    background-color: #d8c8ad;
+    font-family: 'Gadget', sans-serif;
     margin: 0;
     padding: 0;
+    color: #202e46;
 }
 
 nav {
-    background-color: #333;
+    background-color: #000000;
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -22,25 +23,27 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #5e5e5e;
 }
 
 h1 {
-    color: #333;
+    color: #070555;
     text-align: center;
     margin-top: 20px;
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 h2 {
-    color: #555;
+    color: #000000;
     margin-left: 20px;
     margin-top: 30px;
     font-size: 1.5em;
 }
 
 p {
-    color: #666;
+    color: #0e0d0d;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 16px;
@@ -60,8 +63,8 @@ button {
     display: inline-block;
     margin: 10px 20px;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #d3e27c;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     border: none;
     border-radius: 5px;
@@ -70,16 +73,16 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #d3e27c;
     transform: scale(1.05);
 }
 
 button:active {
-    background-color: #003f8c;
+    background-color: #d3e27c;
 }
 
 footer {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -92,7 +95,7 @@ footer p {
 }
 
 footer a {
-    color: #007bff;
+    color: #d3e27c;
     text-decoration: none;
 }
 
