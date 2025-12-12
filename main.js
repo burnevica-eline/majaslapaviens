@@ -1,6 +1,5 @@
 const teamMembers = [
-    { name: "Paula", role: "Dizainere", age: 21, gender: "Sieviete" },
-    { name: "Nils", role: "Programmētājs", age: 21, gender: "Vīrietis" },
+    { name: "Elīne", role: "Dizainere", age: 21, gender: "Sieviete" },
     { name: "Emīls", role: "Programmētājs", age: 21, gender: "Vīrietis" }
 ];
 

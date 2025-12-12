@@ -1,35 +1,35 @@
 function fetchWeatherData() {
 }
 
-function fetchSalaryData() {
+function fetchMigrationData() {
 }
 
 function makeBarChart(months, temperatures) {
 }
 
-function makeSalaryChart(dates, wages) {
+function makeMigrationChart (years, peopleCounts) {
     var ctx2 = document.getElementById('chart2').getContext('2d');
     var chart2 = new Chart(ctx2, {
         type: 'line',
         data: {
-            labels: dates,
+            labels: years,
             datasets: [{
-                label: 'Minimālās Mēnešalgas Pieaugums (€)',
-                data: wages,
-                borderColor: '#FF6384',
-                backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                tension: 0.1
+                label: 'Iedzīvotāju migrācija uz ārzemēm',
+                data: counts,
+                borderColor: '#63dbffff',
+                backgroundColor: 'rgba(85, 209, 240, 0.2)',
+                tension: 0.2
             }]
         },
         options: {
             responsive: true,
             plugins: {
                 legend: { position: 'top' },
-                title: { display: true, text: 'Minimālās Mēnešalgas Pieaugums' }
+                title: { display: true, text: 'Iedzīvotāju migrācija uz ārzemēm' }
             },
             scales: {
                 x: { title: { display: true, text: 'Gads' } },
-                y: { title: { display: true, text: 'Alga (€)' } }
+                y: { title: { display: true, text: 'Iedzīvotāju skaits' } }
             }
         }
     });
@@ -37,5 +37,5 @@ function makeSalaryChart(dates, wages) {
 
 window.onload = function() {
     fetchWeatherData();
-    fetchSalaryData();
+    fetchMigrationData();
 };
