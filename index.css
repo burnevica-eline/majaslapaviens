@@ -73,12 +73,12 @@ button {
 }
 
 button:hover {
-    background-color: #d3e27c;
+    background-color: #e0469b;
     transform: scale(1.05);
 }
 
 button:active {
-    background-color: #d3e27c;
+    background-color: #e0469b;
 }
 
 footer {
