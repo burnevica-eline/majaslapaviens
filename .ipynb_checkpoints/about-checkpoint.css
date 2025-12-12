@@ -1,13 +1,13 @@
 body {
-    background-color: #d8c8ad;
-    font-family: 'Gadget', sans-serif;
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color: #202e46;
+    color: #333;
 }
 
 nav {
-    background-color: #000000;
+    background-color: #333;
     padding: 10px;
     text-align: center;
 }
@@ -27,20 +27,17 @@ nav a:hover {
 }
 
 h1 {
-    color: #070555;
+    color: #333;
     text-align: center;
     margin-top: 20px;
-    font-size: 3em;
-    font-weight: 800;
-    letter-spacing: 2px;
+    font-size: 2em;
 }
 
 h2 {
-    color: #000000;
+    color: #555;
     text-align: center;
     margin-top: 30px;
     font-size: 1.5em;
-    
 }
 
 img {
@@ -72,7 +69,7 @@ img {
 #team-container .team-member h3 {
     font-size: 1.2em;
     font-weight: 700;
-    color: #b8d469;
+    color: #007bff;
     margin-bottom: 5px;
 }
 
@@ -101,8 +98,9 @@ footer p {
 }
 
 footer a {
-    color: #b8d469;
+    color: #007bff;
     text-decoration: none;
+}
 
 footer a:hover {
     text-decoration: underline;
